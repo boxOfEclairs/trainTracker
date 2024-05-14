@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "FiraCode";
+    src: url("../src/fonts/FiraCode.ttf");
+  }
+
+  @font-face {
+    font-family: "MadeTommy";
+    src: url("../src/fonts/MADETOMMY-Regular.otf");
+  }
+
