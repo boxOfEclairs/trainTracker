@@ -9,6 +9,7 @@ module.exports = {
         'white' : '#F7FBFA',
         'back' : '#15171A',
         'front' : '#23232F',
+        'gray' : '#6F737E',
       },
       fontFamily: {
         fira: ['"FiraCode"', "sans-serif"],
