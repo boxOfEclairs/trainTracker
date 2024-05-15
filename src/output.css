@@ -554,8 +554,15 @@ video {
   --tw-contain-style:  ;
 }
 
-.inset-y-0 {
-  top: 0px;
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-0 {
   bottom: 0px;
 }
 
@@ -573,6 +580,10 @@ video {
 
 .grid {
   display: grid;
+}
+
+.h-\[1\.75rem\] {
+  height: 1.75rem;
 }
 
 .h-\[27\.38rem\] {
@@ -595,13 +606,21 @@ video {
   height: 5.25rem;
 }
 
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
+.h-\[6\.5rem\] {
+  height: 6.5rem;
+}
+
+.h-\[16rem\] {
+  height: 16rem;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
 }
 
 .transform {
@@ -616,32 +635,12 @@ video {
   grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
-.grid-rows-3 {
-  grid-template-rows: repeat(3, minmax(0, 1fr));
-}
-
-.grid-rows-4 {
-  grid-template-rows: repeat(4, minmax(0, 1fr));
-}
-
 .grid-rows-5 {
   grid-template-rows: repeat(5, minmax(0, 1fr));
 }
 
-.flex-row {
-  flex-direction: row;
-}
-
 .flex-col {
   flex-direction: column;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .justify-items-center {
@@ -654,20 +653,8 @@ video {
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.place-self-start {
-  place-self: start;
-}
-
-.place-self-end {
-  place-self: end;
-}
-
 .justify-self-start {
   justify-self: start;
-}
-
-.justify-self-end {
-  justify-self: end;
 }
 
 .rounded-xl {
@@ -720,23 +707,45 @@ video {
 }
 
 .font-fira {
-  font-family: "FiraCode", sans-serif;
+  font-family: FiraCode, sans-serif;
 }
 
 .font-tommy {
-  font-family: "MadeTommy", sans-serif;
+  font-family: MadeTommy, sans-serif;
 }
 
 .text-\[3\.125rem\] {
   font-size: 3.125rem;
 }
 
+.text-subtext {
+  font-size: 0.625rem;
+}
+
 .text-title {
   font-size: 1.5625rem;
 }
 
-.text-subtext {
-  font-size: 0.625rem;
+.font-\[100\] {
+  font-weight: 100;
+}
+
+.font-\[2000\] {
+  font-weight: 2000;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.text-\[\#15171A\] {
+  --tw-text-opacity: 1;
+  color: rgb(21 23 26 / var(--tw-text-opacity));
+}
+
+.text-\[\#6F737E\] {
+  --tw-text-opacity: 1;
+  color: rgb(111 115 126 / var(--tw-text-opacity));
 }
 
 .text-back {
@@ -749,10 +758,26 @@ video {
   color: rgb(247 251 250 / var(--tw-text-opacity));
 }
 
-.shadow-default {
+.text-alertRed {
+  --tw-text-opacity: 1;
+  color: rgb(174 42 54 / var(--tw-text-opacity));
+}
+
+.shadow-white {
   --tw-shadow: 0 4px 4px 0px rgba(247, 251, 250, 0.25);
   --tw-shadow-colored: 0 4px 4px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-red {
+  --tw-shadow: 0 4px 4px 0px rgba(235, 64, 52, 0.25);
+  --tw-shadow-colored: 0 4px 4px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-white {
+  --tw-shadow-color: #F7FBFA;
+  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .filter {
@@ -768,6 +793,6 @@ video {
 @font-face {
   font-family: "MadeTommy";
 
-  src: url("../src/fonts/MADETOMMY-Regular.otf");
+  src: url("../src/fonts/MADETOMMY-Regular.ttf");
 }
 

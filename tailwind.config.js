@@ -12,11 +12,13 @@ module.exports = {
         'gray' : '#6F737E',
       },
       fontFamily: {
-        fira: ['"FiraCode"', "sans-serif"],
-        tommy: ['"MadeTommy"', "sans-serif"],
+        fira: ['FiraCode', 'sans-serif'],
+        tommy: ['MadeTommy', 'sans-serif'],
       },
       boxShadow: {
-        'default': '0 4px 4px 0px rgba(247, 251, 250, 0.25)',
+        'white': '0 4px 4px 0px rgba(247, 251, 250, 0.25)',
+        'green': '0 4px 4px 0px rgba(12, 202, 74, 0.25)',
+        'red': '0 4px 4px 0px rgba(235, 64, 52, 0.25)',
       }
     },
     fontSize: {
