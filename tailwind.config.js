@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         fira: ['"FiraCode"', "sans-serif"],
         tommy: ['"MadeTommy"', "sans-serif"],
+      },
+      boxShadow: {
+        'default': '0 4px 4px 0px rgba(247, 251, 250, 0.25)',
       }
     },
     fontSize: {
