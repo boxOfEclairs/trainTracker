@@ -12,3 +12,7 @@
     src: url("../src/fonts/MADETOMMY-Regular.ttf");
   }
 
+@font-face {
+  font-family: "Chivo";
+  src: url("../src/fonts/Chivo.otf");
+}
