@@ -582,6 +582,14 @@ video {
   z-index: 40;
 }
 
+.ml-\[\.5rem\] {
+  margin-left: .5rem;
+}
+
+.mr-\[\.5rem\] {
+  margin-right: .5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -632,6 +640,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .transform {
