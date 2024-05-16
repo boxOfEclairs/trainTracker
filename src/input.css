@@ -7,10 +7,15 @@
     src: url("../src/fonts/FiraCode.ttf");
   }
 
-  @font-face {
-    font-family: "MadeTommy";
-    src: url("../src/fonts/MADETOMMY-Regular.ttf");
-  }
+@font-face {
+  font-family: "MadeTommy";
+  src: url("../src/fonts/MADETOMMY-Regular.ttf");
+}
+
+@font-face {
+  font-family: "MadeTommyBold";
+  src: url("../src/fonts/MADETOMMY-Bold.ttf");
+}
 
 @font-face {
   font-family: "Chivo";
